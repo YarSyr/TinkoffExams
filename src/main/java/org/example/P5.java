@@ -5,8 +5,8 @@ public class P5 {
     static long res;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        long l = scanner.nextLong();long r = scanner.nextLong();
-        //long l = Long.parseLong("0");long r = Long.parseLong("1000000000000000000");
+        //long l = scanner.nextLong();long r = scanner.nextLong();
+        long l = Long.parseLong("0");long r = Long.parseLong("1000000000000000000");
         if(l<10&&r<=10){
             res = r-l+1;
             if(r ==10) {res--;}
